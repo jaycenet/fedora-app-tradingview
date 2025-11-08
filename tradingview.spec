@@ -6,6 +6,7 @@ Summary:        TradingView Desktop for Linux
 License:        Proprietary
 URL:            https://www.tradingview.com/desktop/
 Source0:        https://tvd-packages.tradingview.com/ubuntu/stable/pool/multiverse/t/tradingview/jammy/tradingview-%{version}-1_amd64.deb
+%define debug_package %{nil}
 BuildRequires:  libappindicator-gtk3, gtk3, nss, alien
 
 %description
