@@ -31,8 +31,8 @@ mkdir -p %{buildroot}/usr/share/applications
 cat > %{buildroot}/usr/share/applications/tradingview.desktop <<EOF
 [Desktop Entry]
 Name=TradingView
-Exec=/opt/tradingview/tradingview
-Icon=/opt/tradingview/resources/app/icon.png
+Exec=/opt/tradingview/Tradingview/tradingview
+Icon=/opt/tradingview/share/icons/hicolor/512x512/apps/tradingview.png
 Type=Application
 Categories=Finance;Office;
 EOF
