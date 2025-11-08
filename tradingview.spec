@@ -1,6 +1,6 @@
 Name:           tradingview-desktop
 Version:        2.13.0
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        TradingView Desktop for Linux
 
 License:        Proprietary
@@ -31,7 +31,7 @@ mkdir -p %{buildroot}/usr/share/applications
 cat > %{buildroot}/usr/share/applications/tradingview.desktop <<EOF
 [Desktop Entry]
 Name=TradingView
-Exec=/opt/tradingview/Tradingview/tradingview
+Exec=/opt/tradingview/TradingView/tradingview
 Icon=/opt/tradingview/share/icons/hicolor/512x512/apps/tradingview.png
 Type=Application
 Categories=Finance;Office;
