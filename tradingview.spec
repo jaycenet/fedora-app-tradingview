@@ -1,6 +1,6 @@
 Name:           tradingview-desktop
 Version:        2.13.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        TradingView Desktop for Linux
 
 License:        Proprietary
