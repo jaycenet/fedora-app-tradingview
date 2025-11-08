@@ -22,8 +22,8 @@ workspace management, and native notifications.
 mkdir -p %{buildroot}/opt/tradingview
 
 # Convertit le .deb en archive tar.gz et l’extrait
-alien --to-tgz %{_sourcedir}/tradingview-%{version}-1_amd64.deb --name tradingview-desktop-%{version}
-tar xf tradingview-desktop*.tgz -C %{buildroot}/opt/tradingview --strip-components=2
+alien --to-tgz %{_sourcedir}/tradingview-%{version}-1_amd64.deb
+tar xf tradingview-%{version}.tgz -C %{buildroot}/opt/tradingview --strip-components=2
 
 # Crée le raccourci d'application
 mkdir -p %{buildroot}/usr/share/applications
